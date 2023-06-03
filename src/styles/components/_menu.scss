@@ -1,0 +1,32 @@
+.show__menu {
+  opacity: 1;
+  display: none;
+}
+
+.hide__menu {
+  opacity: 0;
+}
+
+.menu__lists {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.8rem;
+}
+
+.menu__lists ul {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+li:hover {
+  color: $Gray;
+}
+
+@media (max-width: 710px) {
+  .show__menu {
+    display: inline;
+  }
+}

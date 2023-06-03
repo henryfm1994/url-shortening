@@ -1,0 +1,12 @@
+.button {
+  background-color: $Cyan;
+  border: none;
+  border-radius: 50px;
+  color: lighten($color: $Gray, $amount: 20) !important;
+  cursor: pointer;
+  padding: 0.5rem 1.25rem;
+
+  &:hover {
+    background-color: lighten($color: $Cyan, $amount: 20);
+  }
+}
