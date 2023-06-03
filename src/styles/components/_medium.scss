@@ -180,6 +180,8 @@ main {
   gap: 1rem;
   height: 12rem;
   justify-content: center;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .medium__ad-title {
@@ -225,8 +227,8 @@ main {
   }
 
   .medium__main-links input {
-    padding: 0;
-    width: 100%;
+    padding: 0 1rem;
+    width: 94%;
   }
 
   .medium__main-links span {
@@ -263,9 +265,31 @@ main {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
+  .medium__main-links input {
+    width: 93%;
+  }
+}
+
+@media (max-width: 500px) {
+  .medium__main-links input {
+    width: 92%;
+  }
+}
+
+@media (max-width: 450px) {
+  .medium__main-links input {
+    width: 90%;
+  }
+
   .medium__ad-title {
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 375px) {
+  .medium__ad-title {
+    font-size: 1.25em;
   }
 
   .medium__main-statistics-title {
@@ -273,5 +297,11 @@ main {
   }
   .medium__main-statistics-subtitle {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 450px) {
+  .medium__main-links input {
+    width: 86%;
   }
 }
