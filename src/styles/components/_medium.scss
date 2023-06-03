@@ -227,8 +227,8 @@ main {
   }
 
   .medium__main-links input {
-    padding: 0 1rem;
-    width: 94%;
+    // padding: 0 1rem;
+    width: 93%;
   }
 
   .medium__main-links span {
@@ -267,23 +267,31 @@ main {
 
 @media (max-width: 600px) {
   .medium__main-links input {
-    width: 93%;
+    width: 92%;
+  }
+}
+
+@media (max-width: 550px) {
+  .medium__main-links input {
+    width: 91%;
   }
 }
 
 @media (max-width: 500px) {
   .medium__main-links input {
-    width: 92%;
+    width: 90%;
   }
 }
 
 @media (max-width: 450px) {
-  .medium__main-links input {
-    width: 90%;
-  }
-
   .medium__ad-title {
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 420px) {
+  .medium__main-links input {
+    width: 89%;
   }
 }
 
@@ -300,8 +308,8 @@ main {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   .medium__main-links input {
-    width: 86%;
+    width: 87%;
   }
 }
